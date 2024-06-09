@@ -7,7 +7,7 @@ const Navbar = () => {
       <div className="w-full h-full flex flex-row items-center justify-between m-auto px-[10px]">
         <a
           href="#about-me"
-          className="h-auto w-auto flex flex-row items-center "
+          className="h-auto w-auto hidden flex-row items-center lg:flex"
         >
           <Image
             src="/NavLogo.png"
